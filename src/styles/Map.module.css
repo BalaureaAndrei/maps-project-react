@@ -1,0 +1,98 @@
+.popup {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.popupContainer {
+  width: fit-content;
+}
+
+.popup i {
+  color: gold;
+}
+
+.popup h1 {
+  font-size: 1.5rem;
+}
+
+.popup h3 {
+  color: gray;
+  font-size: 1rem;
+}
+
+.popup h2 {
+  color: gray;
+  font-size: 1.3rem;
+}
+
+.popup p {
+  margin: 0;
+  padding-bottom: 0.3rem;
+}
+
+.popup button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  border-radius: 1rem;
+  border: none;
+  cursor: pointer;
+}
+
+.add {
+  background-color: gold;
+}
+
+.remove {
+  background-color: red;
+}
+
+.add:hover {
+  background-color: rgb(212, 157, 18);
+}
+
+.remove:hover {
+  background-color: rgba(255, 0, 0, 0.644);
+}
+
+.popupForm h1 {
+  font-size: 1.5rem;
+}
+
+.popupForm h2 {
+  padding: 0.3rem 0rem;
+  font-size: 1rem;
+}
+
+.popupForm input {
+  padding: 0.5rem;
+  border: solid 1px gray;
+}
+
+.popupForm input[type="date"] {
+  background-color: #0080ff;
+  padding: 1rem;
+  color: white;
+  font-size: 1.3rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.popupForm button {
+  display: block;
+  margin-top: 1rem;
+  padding: 0.7rem;
+  font-size: 1.5rem;
+  border-radius: 1rem;
+  background-color: white;
+  border: 1px solid gray;
+}
+
+.popupForm button:hover {
+  background-color: rgb(238, 238, 238);
+}
+
+.loginAlert {
+  color: red;
+}

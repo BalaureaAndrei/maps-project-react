@@ -1,0 +1,54 @@
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.container svg {
+  margin: auto;
+  display: block;
+  margin-top: 2.5rem;
+}
+
+.search {
+  width: 100%;
+  padding-bottom: 1.5rem;
+}
+
+.table {
+  width: 100%;
+  height: 80%;
+  border: 1px solid gray;
+  overflow: scroll;
+}
+
+.table::-webkit-scrollbar {
+  display: none;
+}
+
+.filters {
+  background-color: rgba(128, 128, 128, 0.685);
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  width: 100%;
+  height: fit-content;
+}
+
+.filters i {
+  cursor: pointer;
+}
+
+.filters h1 {
+  font-size: 1.5rem;
+  display: inline;
+}
+
+.list {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+@media only screen and (max-width: 450px) {
+  .filters h1 {
+    font-size: 0.9rem;
+  }
+}
