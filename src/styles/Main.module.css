@@ -145,6 +145,6 @@ button:hover {
 @media only screen and (max-height: 575.98px) and (orientation: landscape) {
   .main {
     height: 200vh;
-    grid-template-rows: 15vh 85vh 100vh;
+    grid-template-rows: 15vh 75vh 100vh;
   }
 }

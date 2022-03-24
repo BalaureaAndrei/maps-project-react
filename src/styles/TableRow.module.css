@@ -5,7 +5,7 @@
 .rows ul {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
-  cursor: pointer;
+
   margin: 0;
   padding: 0;
 }
@@ -13,11 +13,6 @@
 .rows i {
   color: gold;
   font-size: 4rem;
-}
-
-.rows ul:hover,
-.rows ul:nth-child(2n):hover {
-  background-color: rgba(128, 128, 128, 0.753);
 }
 
 .rows ul:nth-child(2n) {
