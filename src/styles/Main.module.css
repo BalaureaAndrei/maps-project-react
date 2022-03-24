@@ -71,21 +71,21 @@
 
 .filterBox {
   background-color: white;
-  padding: 2rem;
+  padding: 1rem;
   margin-top: 1rem;
   border: solid 1px gray;
 }
 
 .filterBox h3 {
   color: gray;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .filterBox input {
   margin-bottom: 1rem;
   border: none;
   border-bottom: solid 2px gray;
-  padding: 0.6rem 0rem;
+  padding: 0.2rem 0rem;
   width: 100%;
 }
 
@@ -97,9 +97,9 @@
 .filterBox button {
   background-color: white;
   display: block;
-  padding: 0.5rem;
+  padding: 0.2rem;
   border: solid 1px gray;
-  font-size: 1.3rem;
+  font-size: 1rem;
   margin: auto;
   margin-bottom: 1rem;
   box-shadow: 1px 2px rgba(0, 0, 0, 0.411);
